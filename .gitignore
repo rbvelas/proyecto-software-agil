@@ -1,0 +1,19 @@
+# En Windows (PowerShell o CMD)
+type nul > .gitignore
+# En Linux / Mac
+touch .gitignore
+Abre el archivo .gitignore y pega este contenido:
+gitignore
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+# Next.js / Node.js
+node_modules/
+.next/
+npm-debug.log
+# Sistema
+.DS_Store
+Thumbs.db
