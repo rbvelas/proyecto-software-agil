@@ -6,7 +6,7 @@
 flowchart LR
     Cliente[Cliente Web\nNext.js\n(Puerto 3000)]
     API[API\nFastAPI\n(Puerto 8000)]
-    DB[Base de Datos\nPostgreSQL\n(5432)]
+    DB[(Base de Datos\nPostgreSQL\n(5432))]
     
     Cliente -->|HTTP/JSON| API
     API -->|SQLAlchemy| DB
